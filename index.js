@@ -1,5 +1,8 @@
-import { greet } from './components/utils.js'; // use import instead of require
+import { greet } from './components/utils.js';
+
+// Simple navbar styling - no complex logic
+import './components/navbar-apply.js';
 
 window.addEventListener('load', () => {
-  alert(greet('Alice'));
+  console.log(greet('Alice'));
 });
